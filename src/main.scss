@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 20px;
+}
+
+button {
+  background: aquamarine;
+  border: none;
+  border-radius: 3px;
+  color: #000;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px;
+  text-transform: uppercase;
+  margin-right: 15px;
+}
+
+.box-container {
+  padding-bottom: 10rem;
+}
+
+.box {
+  width: 15rem;
+  height: 15rem;
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.boxItem {
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: white;
+  padding: 1rem;
+  list-style: none;
+  margin: 0.5rem;
+}
